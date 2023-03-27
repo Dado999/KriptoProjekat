@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrijavaDrugiKorakController">
+   <children>
+      <TextField fx:id="KorisnickoIme" layoutX="226.0" layoutY="188.0" promptText="Korisnicko ime" />
+      <PasswordField fx:id="Lozinka" layoutX="226.0" layoutY="240.0" promptText="Lozinka" />
+      <Button fx:id="prijavaButton" layoutX="235.0" layoutY="300.0" mnemonicParsing="false" onAction="#PrijavaClick" prefHeight="47.0" prefWidth="132.0" text="PRIJAVA" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

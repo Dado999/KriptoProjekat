@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.RegistracijaController">
+   <children>
+      <Button layoutX="201.0" layoutY="291.0" mnemonicParsing="false" onAction="#RegistracijaClick" prefHeight="54.0" prefWidth="198.0" text="REGISTRACIJA">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="korisnickoIme" layoutX="202.0" layoutY="179.0" prefHeight="42.0" prefWidth="198.0" promptText="Korisnicko ime" />
+      <TextField fx:id="Lozinka" layoutX="202.0" layoutY="227.0" prefHeight="42.0" prefWidth="198.0" promptText="Lozinka" />
+   </children>
+</AnchorPane>

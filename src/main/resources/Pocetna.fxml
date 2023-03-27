@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PocetnaController">
+   <children>
+      <Button fx:id="prijavaButton" layoutX="201.0" layoutY="146.0" mnemonicParsing="false" onAction="#PrijavaClick" onMouseClicked="#PrijavaClick" prefHeight="54.0" prefWidth="198.0" text="PRIJAVA">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="registracijaButton" layoutX="201.0" layoutY="209.0" mnemonicParsing="false" onAction="#RegistracijaClick" onMouseClicked="#RegistracijaClick" prefHeight="54.0" prefWidth="198.0" text="REGISTRACIJA">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
